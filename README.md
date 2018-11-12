@@ -1,0 +1,2 @@
+# CoinAlpaca
+CoinAlpaca Masternode Setup
