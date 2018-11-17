@@ -2,17 +2,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='cmpco.conf'
-CONFIGFOLDER='/root/.cmpco'
-COIN_DAEMON='cmpcod'
-COIN_CLI='cmpco-cli'
-COIN_TX='cmpco-tx'
+CONFIG_FILE='CoinAlpaca.conf'
+CONFIGFOLDER='/root/.CoinAlpaca'
+COIN_DAEMON='CoinAlpacad'
+COIN_CLI='CoinAlpaca-cli'
+COIN_TX='CoinAlpaca-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/nashsclay/CampusCoin/releases/download/v1.o/cmpc_mn.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='CampusCoin'
-COIN_PORT=28195
-RPC_PORT=28196
+COIN_NAME='CoinAlpaca'
+COIN_PORT=22807
+RPC_PORT=22807
 
 NODEIP=$(curl -s4 icanhazip.com)
 
