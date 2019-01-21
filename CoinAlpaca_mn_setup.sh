@@ -12,7 +12,7 @@ COIN_TGZ='https://github.com/Coin-Alpaca/CoinAlpaca-Core/releases/download/1.0.0
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='CoinAlpaca'
 COIN_PORT=22807
-RPC_PORT=22807
+RPC_PORT=9332
 
 NODEIP=$(curl -s4 icanhazip.com)
 
